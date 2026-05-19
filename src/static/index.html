@@ -13,6 +13,23 @@
     </header>
 
     <main>
+      <section id="auth-container">
+        <h3>Staff Access</h3>
+        <form id="login-form">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required placeholder="teacher.alex" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" required placeholder="Enter password" />
+          </div>
+          <button type="submit">Log In</button>
+          <button type="button" id="logout-btn" class="secondary-btn">Log Out</button>
+        </form>
+        <p id="auth-status" class="info-text">Not logged in. Viewing mode only.</p>
+      </section>
+
       <section id="activities-container">
         <h3>Available Activities</h3>
         <div id="activities-list">
@@ -22,7 +39,7 @@
       </section>
 
       <section id="signup-container">
-        <h3>Sign Up for an Activity</h3>
+        <h3>Register Student for an Activity</h3>
         <form id="signup-form">
           <div class="form-group">
             <label for="email">Student Email:</label>

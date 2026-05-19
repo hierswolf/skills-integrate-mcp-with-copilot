@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "username": "teacher.alex",
+      "password": "changeme-teacher",
+      "role": "teacher"
+    },
+    {
+      "username": "admin.riley",
+      "password": "changeme-admin",
+      "role": "admin"
+    },
+    {
+      "username": "student.viewer",
+      "password": "changeme-student",
+      "role": "student"
+    }
+  ]
+}
