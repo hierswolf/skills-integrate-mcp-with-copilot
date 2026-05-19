@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Kill process on port 8000",
+      "type": "shell",
+      "command": "pids=($(lsof -ti tcp:8000)); if [ ${#pids[@]} -gt 0 ]; then kill -9 ${pids[@]}; fi",
+      "problemMatcher": []
+    }
+  ]
+}
