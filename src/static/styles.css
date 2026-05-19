@@ -164,6 +164,30 @@ button:hover {
   background-color: #3949ab;
 }
 
+button:disabled {
+  background-color: #9fa8da;
+  cursor: not-allowed;
+}
+
+.secondary-btn {
+  background-color: #616161;
+  margin-left: 10px;
+}
+
+.secondary-btn:hover {
+  background-color: #757575;
+}
+
+.info-text {
+  margin-top: 12px;
+  color: #0c5460;
+}
+
+.success-text {
+  margin-top: 12px;
+  color: #2e7d32;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
